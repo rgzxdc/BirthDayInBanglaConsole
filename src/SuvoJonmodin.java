@@ -22,7 +22,6 @@ public class SuvoJonmodin {
         char[] hbd = {sh,uu,vv,space,jj,nn,hnt,mm,dd,ii,nn,space,mm,oo,hh,rr};
 
         int n = 0;
-
         while(n<16) {
             n++;
             System.out.print(hbd[n-1]);
