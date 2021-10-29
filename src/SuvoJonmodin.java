@@ -5,37 +5,54 @@ public class SuvoJonmodin {
     public static void main(String[] args) throws InterruptedException {
 
 
-        String su = "\u09B6\u09C1";
-        char vo = '\u09AD';
-        char jj ='\u099C';
-        String nm = "\u09A8\u09CD\u09AE";
-        String di = "\u09A6\u09BF";
-        char  nn = '\u09A8';
-        String mo = "\u09AE\u09CB";
-        char ho = '\u09B9';
+        char sh = '\u09B6';
+        char uu = '\u09C1';
+        char vv = '\u09AD';
+        char jj = '\u099C';
+        char nn = '\u09A8';
+        char hnt = '\u09CD';
+        char mm = '\u09AE';
+        char dd = '\u09A6';
+        char ii = '\u09BF';
+
+        char oo = '\u09CB';
+        char hh = '\u09B9';
         char rr = '\u09B0';
         char space = ' ';
         int delay = 100;
 
-        System.out.print(su);
+        System.out.print(sh);
         TimeUnit.MILLISECONDS.sleep(delay);
-        System.out.print(vo);
+        System.out.print(uu);
         TimeUnit.MILLISECONDS.sleep(delay);
+        System.out.print(vv);
+        TimeUnit.MILLISECONDS.sleep(delay);
+
         System.out.print(space);
+
         TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(jj);
         TimeUnit.MILLISECONDS.sleep(delay);
-        System.out.print(nm);
+        System.out.print(nn);
         TimeUnit.MILLISECONDS.sleep(delay);
-        System.out.print(di);
+        System.out.print(hnt);
+        TimeUnit.MILLISECONDS.sleep(delay);
+        System.out.print(mm);
+        TimeUnit.MILLISECONDS.sleep(delay);
+        System.out.print(dd);
+        TimeUnit.MILLISECONDS.sleep(delay);
+        System.out.print(ii);
         TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(nn);
         TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(space);
         TimeUnit.MILLISECONDS.sleep(delay);
-        System.out.print(mo);
+
+        System.out.print(mm);
         TimeUnit.MILLISECONDS.sleep(delay);
-        System.out.print(ho);
+        System.out.print(oo);
+        TimeUnit.MILLISECONDS.sleep(delay);
+        System.out.print(hh);
         TimeUnit.MILLISECONDS.sleep(delay);
         System.out.println(rr);
     }
