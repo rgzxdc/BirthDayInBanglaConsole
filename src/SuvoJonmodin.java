@@ -15,27 +15,28 @@ public class SuvoJonmodin {
         char ho = '\u09B9';
         char rr = '\u09B0';
         char space = ' ';
+        int delay = 100;
 
         System.out.print(su);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(vo);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(space);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(jj);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(nm);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(di);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(nn);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(space);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(mo);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.print(ho);
-        TimeUnit.MILLISECONDS.sleep(500);
+        TimeUnit.MILLISECONDS.sleep(delay);
         System.out.println(rr);
     }
 }
