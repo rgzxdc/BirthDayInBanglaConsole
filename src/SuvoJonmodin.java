@@ -20,44 +20,14 @@ public class SuvoJonmodin {
         int delay = 100;
 
         char[] hbd = {sh,uu,vv,space,jj,nn,hnt,mm,dd,ii,nn,space,mm,oo,hh,rr};
-        for(int i=0;i<16;i++){
-            System.out.print(hbd[i]);
+
+        int n = 0;
+
+        while(n<16) {
+            n++;
+            System.out.print(hbd[n-1]);
             TimeUnit.MILLISECONDS.sleep(delay);
         }
 
-//        System.out.print(sh);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(uu);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(vv);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//
-//        System.out.print(space);
-//
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(jj);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(nn);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(hnt);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(mm);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(dd);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(ii);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(nn);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(space);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//
-//        System.out.print(mm);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(oo);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.print(hh);
-//        TimeUnit.MILLISECONDS.sleep(delay);
-//        System.out.println(rr);
     }
 }
