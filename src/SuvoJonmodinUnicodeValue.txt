@@ -1,0 +1,21 @@
+Happy = SUVO = শুভ
+শ = 09B6
+ু = 09C1
+ভ = 09AD
+
+Birthday = Jonmodin = জন্মদিন
+জ = 099C
+ন = 09A8
+্‌ = 09CD
+ম = 09AE
+দ = 09A6
+ি = 09BF
+ন = 09A8
+
+Mohor = মোহর [name]
+ম = 09AE
+ো = 09CB
+হ = 09B9
+র = 09B0
+
+source : https://jrgraphix.net/r/Unicode/0980-09FF
